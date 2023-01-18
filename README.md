@@ -3,8 +3,8 @@
 apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
 
 
-- Environment and libraries
-- 
+    ### Environment and libraries
+
     ```bash
     python 3.6.9 or python 3.7.6
     ubuntu 18.04 or Windows 10
@@ -30,31 +30,31 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     pip install graphviz==0.20.1
     ```
     
-- Folder structure
+    ### Folder structure
     
     ```bash
     frcnn_stream1
     	|__ data
-    			|__ test
-    			|__ train
-    			|__ val
-    			|__ labels
+    	    |__ test
+    		|__ train
+    		|__ val
+    		|__ labels
     	|__ scripts
-    			|__ train
-    					|__ imgxxxxxx.png
-    			|__ FRCNN.py
-    			|__ fcnn_test.py
-    			|__ frcnn_train.py
-    			|__ pickle2txt.py
-    			|__ stream1_cvia.pickle
-    			|__ stream1_cvia.txt
-    			|__ annotation_train_cvia_demo_alldata.txt
-    			|__ FRCNN_vgg.csv
-    			|__ train_cvia.csv
+    		|__ train
+    			|__ imgxxxxxx.png
+    		|__ FRCNN.py
+    		|__ fcnn_test.py
+    		|__ frcnn_train.py
+    		|__ pickle2txt.py
+    		|__ stream1_cvia.pickle
+    		|__ stream1_cvia.txt
+    		|__ annotation_train_cvia_demo_alldata.txt
+    		|__ FRCNN_vgg.csv
+    		|__ train_cvia.csv
     	|__ jupyter_notebook_test.txt
     ```
     
- - Virtual Environment
+    ### Virtual Environment
     
     ### Install virtual environment
     
