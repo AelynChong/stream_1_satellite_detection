@@ -5,14 +5,14 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
 
 ### Environment and libraries
 
-    ```bash
+    ```
     python 3.6.9 or python 3.7.6
     ubuntu 18.04 or Windows 10
     ```
     
 ### libraries
     
-    ```bash
+    ```
     pip install --upgrade pip
     
     pip install pandas==1.1.5
@@ -32,7 +32,7 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     
 ### Folder structure
     
-    ```bash
+    ```
     frcnn_stream1
     	|__ data
     	    |__ test
@@ -54,38 +54,15 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     	|__ jupyter_notebook_test.txt
     ```
     
-### Virtual Environment
-    
-### Install virtual environment
-    
-    ```bash
-    pip install virtualenv
+### Training
+
+    ```
+    frcnn_train.py
     ```
     
-### Create virtual environment
-    
-    ```bash
-    # python -m venv <name_venv>
-    python -m venv stream_1
+### Testing
+
     ```
-    
-### Activate virtual environment
-    
-    ```bash
-    # windows
-    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-    .\stream_1\Scripts\activate
-    
-    # linux
-    source stream_1/bin/activate
+    frcnn_test.py
     ```
-    
-### Deactivate virtual environment
-    
-    ```bash
-    # windows
-    deactivate
-    
-    # linux
-    deactivate
-    ```
+
