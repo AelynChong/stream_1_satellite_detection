@@ -1,4 +1,4 @@
-# stream_1_satellite_detection
+# Stream 1 – Spacecraft Detection: Detecting space objects: localize and classify the object by estimating its bounding box and label.
 
 apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
 
