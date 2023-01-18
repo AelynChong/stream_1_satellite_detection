@@ -56,9 +56,9 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     
 ### Training
 
-    ```
+    
     frcnn_train.py
-    ```
+    
     
 ### Testing
 
