@@ -3,14 +3,14 @@
 apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
 
 
-    ### Environment and libraries
+### Environment and libraries
 
     ```bash
     python 3.6.9 or python 3.7.6
     ubuntu 18.04 or Windows 10
     ```
     
-    ### libraries
+### libraries
     
     ```bash
     pip install --upgrade pip
@@ -30,7 +30,7 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     pip install graphviz==0.20.1
     ```
     
-    ### Folder structure
+### Folder structure
     
     ```bash
     frcnn_stream1
@@ -54,22 +54,22 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     	|__ jupyter_notebook_test.txt
     ```
     
-    ### Virtual Environment
+### Virtual Environment
     
-    ### Install virtual environment
+### Install virtual environment
     
     ```bash
     pip install virtualenv
     ```
     
-    ### Create virtual environment
+### Create virtual environment
     
     ```bash
     # python -m venv <name_venv>
     python -m venv stream_1
     ```
     
-    ### Activate virtual environment
+### Activate virtual environment
     
     ```bash
     # windows
@@ -80,7 +80,7 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     source stream_1/bin/activate
     ```
     
-    ### Deactivate virtual environment
+### Deactivate virtual environment
     
     ```bash
     # windows
