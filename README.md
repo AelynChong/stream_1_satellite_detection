@@ -1,18 +1,23 @@
 # Stream 1 – Spacecraft Detection: Detecting space objects: localize and classify the object by estimating its bounding box and label.
 
 apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
+    
+### Training
 
+    frcnn_train.py
+    
+    
+### Testing
+
+    frcnn_test.py
 
 ### Environment and libraries
 
-    ```
     python 3.6.9 or python 3.7.6
     ubuntu 18.04 or Windows 10
-    ```
     
 ### libraries
     
-    ```
     pip install --upgrade pip
     
     pip install pandas==1.1.5
@@ -28,11 +33,9 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     pip install pydot==1.4.2
     pip install pydotplus==2.0.2
     pip install graphviz==0.20.1
-    ```
     
 ### Folder structure
-    
-    ```
+
     frcnn_stream1
     	|__ data
     	    |__ test
@@ -51,18 +54,5 @@ apatation from the original work of: https://github.com/eleow/tfKerasFRCNN
     		|__ annotation_train_cvia_demo_alldata.txt
     		|__ FRCNN_vgg.csv
     		|__ train_cvia.csv
-    	|__ jupyter_notebook_test.txt
-    ```
-    
-### Training
 
-    
-    frcnn_train.py
-    
-    
-### Testing
-
-    ```
-    frcnn_test.py
-    ```
 
